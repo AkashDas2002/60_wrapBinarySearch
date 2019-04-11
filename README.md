@@ -19,4 +19,22 @@ Given an Integer *a* and an ordered list of Integers, determine the index where 
 
 Given an Integer *a* and an ordered list of Integers of length at least two, the recursive abstraction can determine the index where *a* appears in an ordered list of Integers of length half of the original list.
 
-###
+### Parts of the solution
+
+1. Boolean expression determining whether to use base case or recursive case
+```
+if (low >= high)
+```
+2. Base Case
+```
+return -1;
+```
+3. Recursive Cases
+- leftover
+- recursive abstraction
+- combiner
+```
+Yo
+```
+
+
