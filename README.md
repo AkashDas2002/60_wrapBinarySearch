@@ -21,20 +21,27 @@ Given an Integer *a* and an ordered list of Integers of length at least two, the
 
 ### Parts of the solution
 
-1. Boolean expression determining whether to use base case or recursive case
+0. Boolean expression determining whether to use base case or recursive case
 ```
 if (low >= high)
 ```
-2. Base Case
+1. Base Case
 ```
 return -1;
 ```
-3. Recursive Cases
+2. Recursive Cases
 - leftover
+
 - recursive abstraction
+
 - combiner
 ```
-Yo
+    if (list_iAS.get(current) == findMe) return current;
+    else if (list_iAS.get( current) < findMe) {
+	return indexOf_recursive(findMe, current + 1, high);
+    }
+    else {
+	return indexOf_recursive(findMe, low, current);
+    }
 ```
-
 
