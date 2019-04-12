@@ -25,11 +25,11 @@ Given an Integer *a* and an ordered list of Integers of length at least two, the
 ```
 if (low >= high)
 ```
-1. Base Case
+1. Solution to Base Case
 ```
 return -1;
 ```
-2. Recursive Cases
+2. Solution to Recursive Cases
 - leftover
 
 - recursive abstraction
